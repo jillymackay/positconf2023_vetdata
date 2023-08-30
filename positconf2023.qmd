@@ -1,0 +1,113 @@
+---
+title: "You can lead a horse to water ..."
+subtitle: "Changing the Data Science Culture for Veterinary Scientists"
+author: "Jill MacKay"
+affiliation: "Senior Lecturer (Veterinary Science Education) \n Royal (Dick) School of Veterinary Studies, University of Edinburgh"
+format: 
+  revealjs:
+    theme: edtheme.scss
+editor: visual
+---
+
+
+
+```{r}
+#|warning: false
+#|message: false
+
+
+library(tidyverse)
+
+# teaching <- tibble("Public Engagement" = c("Open Educational Resources (MOOCs)"),
+#                    "Undergraduate" = c("Bachelors of Veterinary Medicine and Surgery",
+#                                        "Bachelors of Science (Agriculture)",
+#                                        "Bachelors of Science (Veterinary Science)*"),
+#                    "Postgraduate Taught Courses" = c("Applied Animal Behaviour and Animal Welfare (On Campus)",
+#                                                      "Animal Biosciences (On Campus)",
+#                                                      "Planetary Health (Blended)",
+#                                                      "Sustainable Lands and Cities (Blended)",
+#                                                      "Advanced Clinical Practice (Online)",
+#                                                      "Advanced Veterinary Practice (Online)",
+#                                                      "Applied Conservation Genetics with Wildlife Forensics (Online)",
+#                                                      "Applied Poultry Science (Online)",
+#                                                      "Clinical Animal Behaviour (Online)",
+#                                                      "Conservation Medicine (Online)",
+#                                                      "Equine Science (Online)",
+#                                                      "Food Safety (Online)",
+#                                                      "Global Food Security and Nutrition (Online)",
+#                                                      "International Animal Welfare, Ethics and Law (Online)",
+#                                                      "One Health (Online)",
+#                                                      "Veterinary Anaesthesia and Analgesia (Online)",
+#                                                      "Doctorate in Veterinary Medicine (Resident)**"),
+#                    "Postgraduate Research" = c("Masters by Research",
+#                                                "Doctor of Philosophy (PhD)"))
+
+```
+
+
+
+# This talk
+
+is about environment management.
+
+
+
+`environment <- culture`
+
+
+- How do we make the vet school environment compatible with the Posit Conf environment?
+
+::: footer
+mastodon::jillymackay@fosstodon.org  |  @jillymackay.bsky.social  |  twitter@jilly_mackay
+:::
+
+
+## Session Environment
+
+```{r}
+#| echo: true
+#| eval: false
+
+
+session_position <- function(affirmation = "Aye!") {
+  paste0("Should everyone be on board with good data science practice? ", 
+         affirmation)
+}
+
+
+```
+
+## Edinburgh Vet Environment
+
+```{r}
+#| eval: false
+#| echo: true
+
+vet_environ <- list("Roslin" = c("Dolly the Sheep", 
+                                 "Covid Experts", 
+                                 "Bioinformatics"),
+                     "R(D)SVS" = c("Day 1 Competent Vets", 
+                                   "One World Health"),
+                     "Edinburgh" = c("International Impact", 
+                                     "Local Impact"))
+
+```
+
+![Dolly The Sheep](content/dolly200.png)
+
+## By the end of this talk
+
+Three approaches:
+
+- Changing formal data science teaching
+- Changing workplace culture
+- Changing operational practice
+
+
+# Formal Data Science Teaching
+
+## Our Teaching
+
+```{r}
+
+```
