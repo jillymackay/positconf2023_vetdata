@@ -10,7 +10,7 @@
 <link href="positconf2023_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.3.353">
 
-  <meta name="author" content="Jill MacKay">
+  <meta name="author" content="Jill MacKay Senior Lecturer (Veterinary Science Education) Royal (Dick) School of Veterinary Studies, University of Edinburgh">
   <title>You can lead a horse to water …</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -384,6 +384,9 @@
       margin-right: 0; 
     }
   </style>
+  
+  <script src="positconf2023_files/libs/kePrint-0.0.1/kePrint.js"></script>
+  <link href="positconf2023_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -396,26 +399,25 @@
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Jill MacKay 
+ 
 </div>
 </div>
 </div>
 
 </section>
 <section>
-<section id="this-talk" class="title-slide slide level1 center">
-<h1>This talk</h1>
-<p>is about environment management.</p>
+<section id="this-talk-is-about-environment-management" class="title-slide slide level1 center">
+<h1>This talk is about environment management</h1>
 <p><code>environment &lt;- culture</code></p>
 <ul>
-<li>How do we make the vet school environment compatible with the Posit Conf environment?</li>
+<li>How do we make the vet school environment compatible with the Posit::Conf environment?</li>
 </ul>
 <div class="footer">
 <p>mastodon::jillymackay@fosstodon.org | <span class="citation" data-cites="jillymackay.bsky.social">@jillymackay.bsky.social</span> | twitter@jilly_mackay</p>
 </div>
 </section>
-<section id="session-environment" class="slide level2">
-<h2>Session Environment</h2>
+<section id="positconf-environment" class="slide level2">
+<h2>Posit::Conf Environment</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a>session_position <span class="ot">&lt;-</span> <span class="cf">function</span>(<span class="at">affirmation =</span> <span class="st">"Aye!"</span>) {</span>
 <span id="cb1-2"><a href="#cb1-2"></a>  <span class="fu">paste0</span>(<span class="st">"Should everyone be on board with good data science practice? "</span>, </span>
@@ -423,8 +425,8 @@ Jill MacKay
 <span id="cb1-4"><a href="#cb1-4"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="edinburgh-vet-environment" class="slide level2">
-<h2>Edinburgh Vet Environment</h2>
+<section id="edinburghvet-environment" class="slide level2">
+<h2>Edinburgh::Vet Environment</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a>vet_environ <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="st">"Roslin"</span> <span class="ot">=</span> <span class="fu">c</span>(<span class="st">"Dolly the Sheep"</span>, </span>
 <span id="cb2-2"><a href="#cb2-2"></a>                                 <span class="st">"Covid Experts"</span>, </span>
@@ -435,15 +437,16 @@ Jill MacKay
 <span id="cb2-7"><a href="#cb2-7"></a>                                     <span class="st">"Local Impact"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
-<img data-src="content/dolly200.png" class="r-stretch quarto-figure-center"><p class="caption">Dolly The Sheep</p></section>
+<img data-src="content/dolly200.png" class="r-stretch quarto-figure-center"><p class="caption">Dolly The Sheep (Taxidermied at National Museum of Scotland)</p></section>
 <section id="by-the-end-of-this-talk" class="slide level2">
 <h2>By the end of this talk</h2>
-<p>Three approaches:</p>
+<p>I will describe our three approaches:</p>
 <ul>
 <li>Changing formal data science teaching</li>
 <li>Changing workplace culture</li>
 <li>Changing operational practice</li>
 </ul>
+<p>You tell me what I’m missing</p>
 </section></section>
 <section>
 <section id="formal-data-science-teaching" class="title-slide slide level1 center">
@@ -452,8 +455,156 @@ Jill MacKay
 </section>
 <section id="our-teaching" class="slide level2">
 <h2>Our Teaching</h2>
-<div class="footer footer-default">
+<div class="cell">
+<div class="cell-output-display">
+<table class="table" data-quarto-postprocess="true" style="font-size: 20px; margin-left: auto; margin-right: auto;">
+<caption>R(D)SVS Educational Programmes (* Exit degree, ** Residential Programme). </caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">Public Engagement</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Undergraduate</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Postgraduate Taught</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Postgraduate Research</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Open Educational Resources (MOOCs)</td>
+<td style="text-align: left;">Bachelors of Veterinary Medicine and Surgery, Bachelors of Science (Agriculture) , Bachelors of Science (Veterinary Science)*</td>
+<td style="text-align: left;">Applied Animal Behaviour and Animal Welfare (On Campus) , Animal Biosciences&nbsp;(On Campus) , Planetary Health (Blended) , Sustainable Lands and Cities (Blended) , Advanced Clinical Practice (Online) , Advanced Veterinary Practice (Online) , Applied Conservation Genetics with Wildlife Forensics (Online), Applied Poultry Science (Online) , Clinical Animal Behaviour (Online) , Conservation Medicine (Online) , Equine Science (Online) , Food Safety (Online) , Global Food Security and Nutrition (Online) , International Animal Welfare, Ethics and Law (Online) , One Health (Online) , Veterinary Anaesthesia and&nbsp;Analgesia (Online) , Doctorate in Veterinary Medicine (Resident)**</td>
+<td style="text-align: left;">Masters by Research , Doctor of Philosophy (PhD)</td>
+</tr>
+</tbody>
+</table>
 
+
+</div>
+</div>
+</section>
+<section id="undergraduate" class="slide level2">
+<h2>Undergraduate</h2>
+<ul>
+<li>Vets
+<ul>
+<li>Curriculum overload</li>
+<li>Optional R teaching in research projects</li>
+</ul></li>
+<li>Ag BScs
+<ul>
+<li>All stats teaching in R from 1st year</li>
+</ul></li>
+</ul>
+</section>
+<section id="postgraduate" class="slide level2">
+<h2>Postgraduate</h2>
+<ul>
+<li>Taught programmes
+<ul>
+<li>New role created: “Stats Guru”</li>
+</ul></li>
+<li>New courses within each programme
+<ul>
+<li>Stats teaching in R</li>
+</ul></li>
+<li>Campus support for R Teaching</li>
+</ul>
+</section>
+<section id="and-we-taught-r-forever-more-.-.-." class="slide level2">
+<h2>And we taught R forever more . . .</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a>renv<span class="sc">::</span><span class="fu">dependencies</span>()</span>
+<span id="cb3-2"><a href="#cb3-2"></a></span>
+<span id="cb3-3"><a href="#cb3-3"></a>                Source            Package </span>
+<span id="cb3-4"><a href="#cb3-4"></a><span class="dv">1</span>               Campus<span class="sc">/</span>VetSchool  skilledPeople</span>
+<span id="cb3-5"><a href="#cb3-5"></a><span class="dv">2</span>               Campus<span class="sc">/</span>VetSchool  developmentTime</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section></section>
+<section>
+<section id="workplace-culture" class="title-slide slide level1 center">
+<h1>Workplace culture</h1>
+
+</section>
+<section id="data-methods-club" class="slide level2">
+<h2>Data Methods Club</h2>
+<p><code>skilledPeople::IanHandel("Data Methods Club")</code></p>
+</section>
+<section id="dmc-aims" class="slide level2">
+<h2>DMC Aims</h2>
+<blockquote>
+<p>We want it to be as easy to ask for help with analysis, as it is to ask for extra reagent</p>
+</blockquote>
+</section>
+<section id="and-we-supported-r-forever-more" class="slide level2">
+<h2>And we supported R forever more …</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a>renv<span class="sc">::</span><span class="fu">dependencies</span>()</span>
+<span id="cb4-2"><a href="#cb4-2"></a></span>
+<span id="cb4-3"><a href="#cb4-3"></a>                Source            Package </span>
+<span id="cb4-4"><a href="#cb4-4"></a><span class="dv">1</span>               Global<span class="sc">/</span>           consistentWorkplace</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+
+<img data-src="content/quarantine.jpg" alt="A blackboard with a series of magnets and promotional materials pinned to it, and written in multicoloured chalk in the middle is &quot;Quarantine Week 17+1&quot;" width="1000" class="r-stretch quarto-figure-center"><p class="caption">My house’s quarantine counter</p></section></section>
+<section>
+<section id="operational-practice" class="title-slide slide level1 center">
+<h1>Operational Practice</h1>
+
+</section>
+<section id="quality-assurance" class="slide level2">
+<h2>Quality Assurance</h2>
+<p>As a vet school, we have a LOT of quality assurance</p>
+
+<img data-src="content/director.jpg" alt="Me, a late 30s white woman drinking a glass of prosecco in a beer garden, there is a child on my lap. Her face is covered with a star sticker." class="r-stretch quarto-figure-center"><p class="caption">R(D)SVS’ new Director of Quality Assurance and Enhancement</p></section>
+<section id="sharing-practice" class="slide level2">
+<h2>Sharing practice</h2>
+<p>https://jillymackay.com/talk/veted-2023/</p>
+</section>
+<section id="who-needs-these-skills" class="slide level2">
+<h2>Who needs these skills?</h2>
+<p>Where is the right division of labour?</p>
+</section></section>
+<section>
+<section id="have-we-finally-solved-it" class="title-slide slide level1 center">
+<h1>Have we finally solved it?</h1>
+
+</section>
+<section id="where-is-veterinary-science-at" class="slide level2">
+<h2>Where is veterinary science at?</h2>
+<p><code>!remindme(10 years)</code></p>
+</section>
+<section id="key-learnings" class="slide level2">
+<h2>Key Learnings</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="fu">require</span>(skilledPeople)</span>
+<span id="cb5-2"><a href="#cb5-2"></a><span class="fu">require</span>(developmentTime)</span>
+<span id="cb5-3"><a href="#cb5-3"></a><span class="fu">require</span>(flexibleWorkspace)</span>
+<span id="cb5-4"><a href="#cb5-4"></a><span class="fu">require</span>(failSpace)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="issues" class="slide level2">
+<h2>Issues</h2>
+<table style="width:86%;">
+<caption>is:issue is:open</caption>
+<colgroup>
+<col style="width: 86%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>2 Open</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><strong>Require effective delegation of data tasks within teams</strong></p>
+<p><em>#3 opened on Aug 31 by jillymackay</em></p></td>
+</tr>
+<tr class="even">
+<td><p><strong>Maintain skills when rarely used</strong></p>
+<p><em>#1 opened on Jan 1 by jillymackay</em></p></td>
+</tr>
+</tbody>
+</table>
+<div class="footer footer-default">
+<p><img data-src="content/rdsvs.png"></p>
 </div>
 </section></section>
     </div>

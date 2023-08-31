@@ -1,14 +1,17 @@
 ---
 title: "You can lead a horse to water ..."
 subtitle: "Changing the Data Science Culture for Veterinary Scientists"
-author: "Jill MacKay"
-affiliation: "Senior Lecturer (Veterinary Science Education) \n Royal (Dick) School of Veterinary Studies, University of Edinburgh"
+author: |
+  Jill MacKay
+  Senior Lecturer (Veterinary Science Education)
+  Royal (Dick) School of Veterinary Studies, University of Edinburgh
 format: 
   revealjs:
     theme: edtheme.scss
 editor: visual
+footer: |
+  ![](content/rdsvs.png)
 ---
-
 
 
 ```{r}
@@ -17,52 +20,69 @@ editor: visual
 
 
 library(tidyverse)
+library(knitr)
+library(kableExtra)
 
-# teaching <- tibble("Public Engagement" = c("Open Educational Resources (MOOCs)"),
-#                    "Undergraduate" = c("Bachelors of Veterinary Medicine and Surgery",
-#                                        "Bachelors of Science (Agriculture)",
-#                                        "Bachelors of Science (Veterinary Science)*"),
-#                    "Postgraduate Taught Courses" = c("Applied Animal Behaviour and Animal Welfare (On Campus)",
-#                                                      "Animal Biosciences (On Campus)",
-#                                                      "Planetary Health (Blended)",
-#                                                      "Sustainable Lands and Cities (Blended)",
-#                                                      "Advanced Clinical Practice (Online)",
-#                                                      "Advanced Veterinary Practice (Online)",
-#                                                      "Applied Conservation Genetics with Wildlife Forensics (Online)",
-#                                                      "Applied Poultry Science (Online)",
-#                                                      "Clinical Animal Behaviour (Online)",
-#                                                      "Conservation Medicine (Online)",
-#                                                      "Equine Science (Online)",
-#                                                      "Food Safety (Online)",
-#                                                      "Global Food Security and Nutrition (Online)",
-#                                                      "International Animal Welfare, Ethics and Law (Online)",
-#                                                      "One Health (Online)",
-#                                                      "Veterinary Anaesthesia and Analgesia (Online)",
-#                                                      "Doctorate in Veterinary Medicine (Resident)**"),
-#                    "Postgraduate Research" = c("Masters by Research",
-#                                                "Doctor of Philosophy (PhD)"))
+teaching <- tibble(Programme = c("Open Educational Resources (MOOCs)",
+                                 "Bachelors of Veterinary Medicine and Surgery",
+                                 "Bachelors of Science (Agriculture)",
+                                 "Bachelors of Science (Veterinary Science)*",
+                                 "Applied Animal Behaviour and Animal Welfare (On Campus)",
+                                 "Animal Biosciences (On Campus)",
+                                 "Planetary Health (Blended)",
+                                 "Sustainable Lands and Cities (Blended)",
+                                 "Advanced Clinical Practice (Online)",
+                                 "Advanced Veterinary Practice (Online)",
+                                 "Applied Conservation Genetics with Wildlife Forensics (Online)",
+                                 "Applied Poultry Science (Online)",
+                                 "Clinical Animal Behaviour (Online)",
+                                 "Conservation Medicine (Online)",
+                                 "Equine Science (Online)",
+                                 "Food Safety (Online)",
+                                 "Global Food Security and Nutrition (Online)",
+                                 "International Animal Welfare, Ethics and Law (Online)",
+                                 "One Health (Online)",
+                                 "Veterinary Anaesthesia and Analgesia (Online)",
+                                 "Doctorate in Veterinary Medicine (Resident)**",
+                                 "Masters by Research",
+                                 "Doctor of Philosophy (PhD)"),
+                   Grouping = c("Public Engagement",
+                                "Undergraduate",
+                                "Undergraduate",
+                                "Undergraduate",
+                                "Postgraduate Taught",
+                                "Postgraduate Taught",
+                                "Postgraduate Taught",
+                                "Postgraduate Taught",
+                                "Postgraduate Taught",
+                                "Postgraduate Taught",
+                                "Postgraduate Taught",
+                                "Postgraduate Taught",
+                                "Postgraduate Taught",
+                                "Postgraduate Taught",
+                                "Postgraduate Taught",
+                                "Postgraduate Taught",
+                                "Postgraduate Taught",
+                                "Postgraduate Taught",
+                                "Postgraduate Taught",
+                                "Postgraduate Taught",
+                                "Postgraduate Taught",
+                                "Postgraduate Research",
+                                "Postgraduate Research"))
 
 ```
 
-
-
-# This talk
-
-is about environment management.
-
-
+# This talk is about environment management
 
 `environment <- culture`
 
-
-- How do we make the vet school environment compatible with the Posit Conf environment?
+-   How do we make the vet school environment compatible with the Posit::Conf environment?
 
 ::: footer
-mastodon::jillymackay@fosstodon.org  |  @jillymackay.bsky.social  |  twitter@jilly_mackay
+mastodon::jillymackay\@fosstodon.org \| @jillymackay.bsky.social \| twitter\@jilly_mackay
 :::
 
-
-## Session Environment
+## Posit::Conf Environment
 
 ```{r}
 #| echo: true
@@ -77,7 +97,7 @@ session_position <- function(affirmation = "Aye!") {
 
 ```
 
-## Edinburgh Vet Environment
+## Edinburgh::Vet Environment
 
 ```{r}
 #| eval: false
@@ -93,21 +113,136 @@ vet_environ <- list("Roslin" = c("Dolly the Sheep",
 
 ```
 
-![Dolly The Sheep](content/dolly200.png)
+![Dolly The Sheep (Taxidermied at National Museum of Scotland)](content/dolly200.png)
 
 ## By the end of this talk
 
-Three approaches:
+I will describe our three approaches:
 
-- Changing formal data science teaching
-- Changing workplace culture
-- Changing operational practice
+-   Changing formal data science teaching
+-   Changing workplace culture
+-   Changing operational practice
 
+You tell me what I'm missing
 
 # Formal Data Science Teaching
 
 ## Our Teaching
 
 ```{r}
+#| tbl-cap: "R(D)SVS Educational Programmes (* Exit degree, ** Residential Programme)."
+
+teaching %>% 
+  pivot_wider(names_from = "Grouping",values_from = "Programme") %>% 
+#  mutate(`Postgraduate Taught` = str_replace(`Postgraduate Taught`, ",", ", \n")) %>% 
+  kable() %>% 
+  kable_styling(font_size = 20)
 
 ```
+
+## Undergraduate
+
+-   Vets
+    -   Curriculum overload
+    -   Optional R teaching in research projects
+-   Ag BScs
+    -   All stats teaching in R from 1st year
+
+## Postgraduate
+
+-   Taught programmes
+    -   New role created: "Stats Guru"
+-   New courses within each programme
+    -   Stats teaching in R
+-   Campus support for R Teaching
+
+## And we taught R forever more . . .
+
+```{r}
+#| eval: false
+#| echo: true
+
+renv::dependencies()
+
+
+                Source            Package 
+1               Campus/VetSchool  skilledPeople
+2               Campus/VetSchool  developmentTime
+```
+
+# Workplace culture
+
+## Data Methods Club
+
+`skilledPeople::IanHandel("Data Methods Club")`
+
+## DMC Aims
+
+> We want it to be as easy to ask for help with analysis, as it is to ask for extra reagent
+
+## And we supported R forever more ...
+
+```{r}
+#| eval: false
+#| echo: true
+
+renv::dependencies()
+
+
+                Source            Package 
+1               Global/           consistentWorkplace
+
+```
+
+![My house's quarantine counter](content/quarantine.jpg){fig-alt="A blackboard with a series of magnets and promotional materials pinned to it, and written in multicoloured chalk in the middle is \"Quarantine Week 17+1\"" width="1000"}
+
+# Operational Practice
+
+## Quality Assurance
+
+As a vet school, we have a LOT of quality assurance
+
+![R(D)SVS' new Director of Quality Assurance and Enhancement](content/director.jpg){fig-alt="Me, a late 30s white woman drinking a glass of prosecco in a beer garden, there is a child on my lap. Her face is covered with a star sticker."}
+
+## Sharing practice
+
+https://jillymackay.com/talk/veted-2023/
+
+## Who needs these skills?
+
+Where is the right division of labour?
+
+# Have we finally solved it?
+
+## Where is veterinary science at?
+
+`!remindme(10 years)`
+
+## Key Learnings
+
+```{r}
+#| eval: false
+#| echo: true
+
+require(skilledPeople)
+require(developmentTime)
+require(flexibleWorkspace)
+require(failSpace)
+
+```
+
+## Issues
+
++-------------------------------------------------------------+
+| 2 Open                                                      |
++=============================================================+
+| **Require effective delegation of data tasks within teams** |
+|                                                             |
+| *#3 opened on Aug 31 by jillymackay*                        |
++-------------------------------------------------------------+
+| **Maintain skills when rarely used**                        |
+|                                                             |
+| *#1 opened on Jan 1 by jillymackay*                         |
++-------------------------------------------------------------+
+
+: is:issue is:open
