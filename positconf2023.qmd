@@ -1,16 +1,18 @@
 ---
 title: "You can lead a horse to water ..."
 subtitle: "Changing the Data Science Culture for Veterinary Scientists"
-author: |
-  Jill MacKay
-  Senior Lecturer (Veterinary Science Education)
-  Royal (Dick) School of Veterinary Studies, University of Edinburgh
+author: Jill MacKay
+affiliation: Senior Lecturer (Veterinary Science Education), University of Edinburgh
 format: 
   revealjs:
     theme: edtheme.scss
 editor: visual
-footer: |
-  ![](content/rdsvs.png)
+title-slide-attributes: 
+  data-background-image: /content/rdsvs.png
+  data-background-position:  bottom 5px right 10px
+  data-background-size: 20%
+  data-background-repeat: no-repeat
+  
 ---
 
 
@@ -72,9 +74,13 @@ teaching <- tibble(Programme = c("Open Educational Resources (MOOCs)",
 
 ```
 
-# This talk is about environment management
+# This talk is about:
+
+Environment management
+
 
 `environment <- culture`
+
 
 -   How do we make the vet school environment compatible with the Posit::Conf environment?
 
@@ -180,6 +186,16 @@ renv::dependencies()
 
 > We want it to be as easy to ask for help with analysis, as it is to ask for extra reagent
 
+
+## DMC Approaches
+
+- Book club
+- Protected Independent Analysis Time in R (Yay!) PARTY
+- Occasional sessions
+- Email help
+
+Adopted [Recurse Center Social Rules](https://www.recurse.com/social-rules)
+
 ## And we supported R forever more ...
 
 ```{r}
@@ -212,6 +228,10 @@ https://jillymackay.com/talk/veted-2023/
 
 Where is the right division of labour?
 
+Hofstee Standard Setting is an integral part of our academic practice in the veterinary degree
+
+Who is responsible for it?
+
 # Have we finally solved it?
 
 ## Where is veterinary science at?
@@ -236,11 +256,11 @@ require(failSpace)
 +-------------------------------------------------------------+
 | 2 Open                                                      |
 +=============================================================+
-| **Require effective delegation of data tasks within teams** |
+| **Skilled people leave too often**                          |
 |                                                             |
 | *#3 opened on Aug 31 by jillymackay*                        |
 +-------------------------------------------------------------+
-| **Maintain skills when rarely used**                        |
+| **Not sure this is possible in neoliberal Higher Ed**       |
 |                                                             |
 | *#1 opened on Jan 1 by jillymackay*                         |
 +-------------------------------------------------------------+
