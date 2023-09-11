@@ -1,8 +1,8 @@
 ---
 title: "You can lead a horse to water ..."
 subtitle: "Changing the Data Science Culture for Veterinary Scientists"
-author: Jill MacKay
-affiliation: Senior Lecturer (Veterinary Science Education), University of Edinburgh
+author: "Jill MacKay"
+affiliation: "Senior Lecturer (Veterinary Science Education), University of Edinburgh"
 format: 
   revealjs:
     theme: edtheme.scss
@@ -82,10 +82,10 @@ Environment management
 `environment <- culture`
 
 
--   How do we make the vet school environment compatible with the Posit::Conf environment?
+-   How do we make the vet school environment **compatible** with the Posit::Conf environment?
 
 ::: footer
-mastodon::jillymackay\@fosstodon.org \| @jillymackay.bsky.social \| twitter\@jilly_mackay
+http://pos.it/slido-B \| jillymackay.com \| mastodon::jillymackay\@fosstodon.org \| @jillymackay.bsky.social \| twitter\@jilly_mackay
 :::
 
 ## Posit::Conf Environment
@@ -103,6 +103,14 @@ session_position <- function(affirmation = "Aye!") {
 
 ```
 
+
+
+
+::: footer
+http://pos.it/slido-B \| @jillymackay.bsky.social
+:::
+
+
 ## Edinburgh::Vet Environment
 
 ```{r}
@@ -119,7 +127,15 @@ vet_environ <- list("Roslin" = c("Dolly the Sheep",
 
 ```
 
-![Dolly The Sheep (Taxidermied at National Museum of Scotland)](content/dolly200.png)
+
+
+<img src="content/dolly200.png" width="200" alt = "A close-up image of Dolly the Sheep's face. She has short white hair on her face and her fleece is fluffy and white">
+
+
+::: footer
+http://pos.it/slido-B \| @jillymackay.bsky.social
+:::
+
 
 ## By the end of this talk
 
@@ -130,6 +146,12 @@ I will describe our three approaches:
 -   Changing operational practice
 
 You tell me what I'm missing
+
+
+
+::: footer
+http://pos.it/slido-B \| @jillymackay.bsky.social
+:::
 
 # Formal Data Science Teaching
 
@@ -146,6 +168,11 @@ teaching %>%
 
 ```
 
+
+::: footer
+http://pos.it/slido-B \| @jillymackay.bsky.social
+:::
+
 ## Undergraduate
 
 -   Vets
@@ -154,6 +181,14 @@ teaching %>%
 -   Ag BScs
     -   All stats teaching in R from 1st year
 
+
+
+::: footer
+http://pos.it/slido-B \| @jillymackay.bsky.social
+:::
+
+
+
 ## Postgraduate
 
 -   Taught programmes
@@ -161,6 +196,12 @@ teaching %>%
 -   New courses within each programme
     -   Stats teaching in R
 -   Campus support for R Teaching
+    - [R @  R(D)SVS](https://jillymackay.github.io/RatRDSVS/)
+
+::: footer
+http://pos.it/slido-B \| @jillymackay.bsky.social
+:::
+
 
 ## And we taught R forever more . . .
 
@@ -173,8 +214,17 @@ renv::dependencies()
 
                 Source            Package 
 1               Campus/VetSchool  skilledPeople
-2               Campus/VetSchool  developmentTime
+2               Campus/VetSchool  staffTime
+3               Campus/VetSchool  studentSatisfaction
 ```
+
+
+
+
+::: footer
+http://pos.it/slido-B \| @jillymackay.bsky.social
+:::
+
 
 # Workplace culture
 
@@ -182,19 +232,40 @@ renv::dependencies()
 
 `skilledPeople::IanHandel("Data Methods Club")`
 
+
+
+::: footer
+http://pos.it/slido-B \| @jillymackay.bsky.social
+:::
+
+
 ## DMC Aims
 
-> We want it to be as easy to ask for help with analysis, as it is to ask for extra reagent
+> We want it to be as easy to ask for help with analysis, as it is to ask for extra reagent in a lab
+
+
+::: footer
+http://pos.it/slido-B \| @jillymackay.bsky.social
+:::
+
 
 
 ## DMC Approaches
 
 - Book club
-- Protected Independent Analysis Time in R (Yay!) PARTY
+- PARTYs (Protected Analysis Time in R (Yay!)) 
 - Occasional sessions
 - Email help
 
 Adopted [Recurse Center Social Rules](https://www.recurse.com/social-rules)
+
+
+
+
+::: footer
+http://pos.it/slido-B \| @jillymackay.bsky.social
+:::
+
 
 ## And we supported R forever more ...
 
@@ -206,11 +277,23 @@ renv::dependencies()
 
 
                 Source            Package 
-1               Global/           consistentWorkplace
+1               Global/           globalPandemic
+2               Campus/VetSchool  staffTime
+
+
+skilledPeople::IanHandel()
+
+> Warning message:
+> `IanHandel()` is deprecated as of skilledPeople v2019
+> There are a range of other people instead (suggest JillyMacKay())
 
 ```
 
-![My house's quarantine counter](content/quarantine.jpg){fig-alt="A blackboard with a series of magnets and promotional materials pinned to it, and written in multicoloured chalk in the middle is \"Quarantine Week 17+1\"" width="1000"}
+
+::: footer
+http://pos.it/slido-B \| @jillymackay.bsky.social
+:::
+
 
 # Operational Practice
 
@@ -220,23 +303,58 @@ As a vet school, we have a LOT of quality assurance
 
 ![R(D)SVS' new Director of Quality Assurance and Enhancement](content/director.jpg){fig-alt="Me, a late 30s white woman drinking a glass of prosecco in a beer garden, there is a child on my lap. Her face is covered with a star sticker."}
 
+
+::: footer
+http://pos.it/slido-B \| @jillymackay.bsky.social
+:::
+
+
 ## Sharing practice
 
-https://jillymackay.com/talk/veted-2023/
 
-## Who needs these skills?
+  - [Quality Assurance of Teaching Data Project Page](https://jillymackay.com/project/quality-assurance-of-teaching-data/)
 
-Where is the right division of labour?
+  - [Sharing analyses with other institutions](https://jillymackay.com/talk/veted-2023/)
 
-Hofstee Standard Setting is an integral part of our academic practice in the veterinary degree
 
-Who is responsible for it?
 
-# Have we finally solved it?
+::: footer
+http://pos.it/slido-B \| @jillymackay.bsky.social
+:::
+
+
+## Where does operational data lie?
+
+Case Study: Hofstee Standard Setting
+
+  - Integral part of veterinary degree
+  
+  - Teaching data managed by Veterinary Teaching Organisation
+  
+  - Standard setting applied by academics (exam board)
+  
+  
+What guidance do we have on making judgement calls with operational data? 
+
+
+
+::: footer
+http://pos.it/slido-B \| @jillymackay.bsky.social
+:::
+
+
+# The Veterinary Data Science Culture
 
 ## Where is veterinary science at?
 
 `!remindme(10 years)`
+
+
+::: footer
+http://pos.it/slido-B \| @jillymackay.bsky.social
+:::
+
+
 
 ## Key Learnings
 
@@ -245,18 +363,24 @@ Who is responsible for it?
 #| echo: true
 
 require(skilledPeople)
-require(developmentTime)
-require(flexibleWorkspace)
-require(failSpace)
+require(staffTime)
+
+
 
 ```
+
+
+::: footer
+http://pos.it/slido-B \| @jillymackay.bsky.social
+:::
+
 
 ## Issues
 
 +-------------------------------------------------------------+
 | 2 Open                                                      |
 +=============================================================+
-| **Skilled people leave too often**                          |
+| **Skilled people updates too often**                        |
 |                                                             |
 | *#3 opened on Aug 31 by jillymackay*                        |
 +-------------------------------------------------------------+
@@ -266,3 +390,46 @@ require(failSpace)
 +-------------------------------------------------------------+
 
 : is:issue is:open
+
+
+::: footer
+http://pos.it/slido-B \| @jillymackay.bsky.social
+:::
+
+
+## Issues
+
++-------------------------------------------------------------+
+| 2 Closed                                                    |
++=============================================================+
+| **Skilled people updates too often**                        |
+|                                                             |
+|   The continual refreshing of skilledPeople is a feature,   |
+|   not a bug                                                 |
+|                                                             |
+| *#3 closed on Sep 19 by jillymackay*                        |
++-------------------------------------------------------------+
+| **Not sure this is possible in neoliberal Higher Ed**       |
+|                                                             |
+|   This is a replication of the capitalism issue             |
+|                                                             |
+| *#1 closed on Sep 19 by jillymackay*                        |
++-------------------------------------------------------------+
+
+: is:issue is:closed
+
+
+
+::: footer
+http://pos.it/slido-B \| @jillymackay.bsky.social
+:::
+
+
+
+## Questions?
+
+[http://pos.it/slido-B](http://pos.it/slido-B)
+
+::: footer
+jillymackay.com \| mastodon::jillymackay\@fosstodon.org \| @jillymackay.bsky.social
+:::
