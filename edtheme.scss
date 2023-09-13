@@ -12,9 +12,11 @@ $body-color: #041E42 !default;
 $link-color: #830065 !default;
 $selection-bg: #D50032 !default;
 
+
 // headings
 $presentation-heading-font: "Montserrat", sans-serif !default;
 $presentation-heading-color: #041E42 !default;
+
 
 
 
@@ -28,4 +30,9 @@ $code-block-border-color: #93a1a1 !default;
 html * {
   color-profile: sRGB;
   rendering-intent: auto;
+}
+
+.reveal .footer {
+ color: #830065 !important;
+
 }
