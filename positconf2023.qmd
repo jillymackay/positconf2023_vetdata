@@ -497,5 +497,5 @@ Edinburgh's free consult time.
 
 
 ::: footer
-jillymackay.com \| mastodon::jillymackay\@fosstodon.org \| @jillymackay.bsky.social
+jillymackay.com \| mastodon::jillymackay\@fosstodon.org \| @jillymackay.bsky.social  \| https://github.com/jillymackay/positconf2023_vetdata 
 :::
