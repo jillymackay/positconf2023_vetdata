@@ -274,9 +274,25 @@ http://pos.it/slido-B \| @jillymackay.bsky.social
 
 ## Quality Assurance
 
-As a vet school, we have a LOT of quality assurance
 
-![R(D)SVS' new Director of Quality Assurance and Enhancement](content/director.jpg){fig-alt="Me, a late 30s white woman drinking a glass of prosecco in a beer garden, there is a child on my lap. Her face is covered with a star sticker."}
+:::: {.columns}
+
+::: {.column width="40%"}
+As a vet school, we have a LOT of quality assurance
+:::
+
+::: {.column width="60%"}
+
+<center><img src="content/director.jpg" alt="Me, a late 30s white woman drinking a glass of prosecco in a beer garden, there is a child on my lap. Her face is covered with a star sticker" width="300"/></center>
+
+<span style = "color: #93a1a1;">R(D)SVS' new Director of Quality Assurance and Enhancement ...</span>
+
+
+
+
+:::
+
+::::
 
 ::: footer
 http://pos.it/slido-B \| @jillymackay.bsky.social
@@ -319,11 +335,8 @@ http://pos.it/slido-B \| @jillymackay.bsky.social
 
 `!remindme(10 years)`
 
-::: footer
-http://pos.it/slido-B \| @jillymackay.bsky.social
-:::
 
-## Key Learnings
+But what are my key learnings . . . ?
 
 ```{r}
 #| eval: false
@@ -340,53 +353,148 @@ require(staffTime)
 http://pos.it/slido-B \| @jillymackay.bsky.social
 :::
 
-## Issues
+## is:issue skilledPeople in:title {.smaller}
 
+::: {.fragment .semi-fade-out}
 +------------------------------------------------------------+
-| 2 Open                                                     |
+| 1 Open                                                     |
 +============================================================+
-| **Skilled people updates too often**                       |
+| **skilledPeople updates too often**                        |
 |                                                            |
-| *#3 opened on Aug 31 by jillymackay*                       |
+| *#1 opened on Jun 24 by jillymackay*                       |
 +------------------------------------------------------------+
+:::
+
+::: {.fragment .fade-in}
++------------------------------------------------------------+
+| 1 Closed                                                   |
++============================================================+
+| **skilledPeople updates too often**                        |
+|                                                            |
+|   Won't update: this is a feature, not a bug.              |
+|                                                            |
+| *#1 closed on Sep 19 by jillymackay*                       |
++------------------------------------------------------------+
+:::
+
+
+::: {.fragment .fade-in}
+
+Suggest utilise extensive documentation                  
+
+See: 
+
+  * Glasgow has [PsyTeachR](https://psyteachr.github.io/)
+  
+  * Our QA work [Project page](https://jillymackay.com/project/quality-assurance-of-teaching-data/)
+  
+
+  
+:::
+
+::: footer
+http://pos.it/slido-B \| @jillymackay.bsky.social
+:::
+
+
+## is:issue R Is Hard in:title {.smaller}
+
+::: {.fragment .semi-fade-out}
++------------------------------------------------------------+
+| 1 Open                                                     |
++============================================================+
+| **R is really complicated and time consuming**             |
+|                                                            |
+| *#2 opened on Aug 16 by jillymackay*                       |
++------------------------------------------------------------+
+:::
+
+::: {.fragment .fade-in}
++------------------------------------------------------------+
+| 1 Closed                                                   |
++============================================================+
+| **R is really complicated and time consuming**             |
+|                                                            |
+|   Make use of the many tools available                     |
+|                                                            |
+| *#2 closed on Sep 19 by jillymackay*                       |
++------------------------------------------------------------+
+:::
+
+
+::: {.fragment .fade-in}
+
+Prescribe `tidyverse` and an IDE. Ensure using right tool for job.                  
+
+See: 
+
+  * Global Academy of Agriculture and Food security [short courses](https://www.ed.ac.uk/global-agriculture-food-systems/admissions/cpd/farm-data)
+  
+
+  
+:::
+
+::: footer
+http://pos.it/slido-B \| @jillymackay.bsky.social
+:::
+
+
+
+## is:issue politics in:title {.smaller}
+
+::: {.fragment .semi-fade-out}
++------------------------------------------------------------+
+| 1 Open                                                     |
++============================================================+
 | **Not sure this is possible in neoliberal Higher Ed**      |
 |                                                            |
-| *#1 opened on Jan 1 by jillymackay*                        |
+| *#3 opened on Sep 13 by jillymackay*                       |
 +------------------------------------------------------------+
+:::
 
-: is:issue is:open
+::: {.fragment .fade-in}
++------------------------------------------------------------+
+| 1 Closed                                                   |
++============================================================+
+| **Not sure this is possible in neoliberal Higher Ed**      |
+|                                                            |
+|   This is a replication of the capitalism issue.           |
+|                                                            |
+| *#3 closed on Sep 19 by jillymackay*                       |
++------------------------------------------------------------+
+:::
+
+
+::: {.fragment .fade-in}
+
+Acknowledge and provide time for these skills                  
+
+See:
+
+  * ?
+  
+
+  
+:::
 
 ::: footer
 http://pos.it/slido-B \| @jillymackay.bsky.social
 :::
 
-## Issues
 
-+-------------------------------------------------------------------+
-| 2 Closed                                                          |
-+===================================================================+
-| **Skilled people updates too often**                              |
-|                                                                   |
-| The continual refreshing of skilledPeople is a feature, not a bug |
-|                                                                   |
-| *#3 closed on Sep 19 by jillymackay*                              |
-+-------------------------------------------------------------------+
-| **Not sure this is possible in neoliberal Higher Ed**             |
-|                                                                   |
-| This is a replication of the capitalism issue                     |
-|                                                                   |
-| *#1 closed on Sep 19 by jillymackay*                              |
-+-------------------------------------------------------------------+
 
-: is:issue is:closed
-
-::: footer
-http://pos.it/slido-B \| @jillymackay.bsky.social
-:::
 
 ## Questions?
 
+
+Edinburgh's free consult time. 
+
+
+
 <http://pos.it/slido-B>
+
+
+
 
 ::: footer
 jillymackay.com \| mastodon::jillymackay\@fosstodon.org \| @jillymackay.bsky.social
