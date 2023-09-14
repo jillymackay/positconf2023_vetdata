@@ -229,7 +229,7 @@ http://pos.it/slido-B \| @jillymackay.bsky.social
 ## DMC Approaches
 
 -   Book club
--   PARTYs (Protected Analysis Time in R (Yay!))
+-   PARTYs (Protected Analysis in R Time (Yay!))
 -   Occasional sessions
 -   Email help
 
@@ -300,29 +300,19 @@ http://pos.it/slido-B \| @jillymackay.bsky.social
 
 ## Sharing practice
 
--   [Quality Assurance of Teaching Data Project Page](https://jillymackay.com/project/quality-assurance-of-teaching-data/)
+-   Teaching data often managed by Teaching Organisations and highly confidential. 
 
--   [Sharing analyses with other institutions](https://jillymackay.com/talk/veted-2023/)
+-   [Quality Assurance of Teaching Data Project Page - https://jillymackay.com/project/quality-assurance-of-teaching-data/](https://jillymackay.com/project/quality-assurance-of-teaching-data/)
 
-::: footer
-http://pos.it/slido-B \| @jillymackay.bsky.social
-:::
+-   [Sharing analyses with other institutions - https://jillymackay.com/talk/veted-2023/](https://jillymackay.com/talk/veted-2023/)
 
-## Where does operational data lie?
 
-Case Study: Hofstee Standard Setting
-
--   Integral part of veterinary degree
-
--   Teaching data managed by Veterinary Teaching Organisation
-
--   Standard setting applied by academics (exam board)
-
-What guidance do we have on making judgement calls with operational data?
 
 ::: footer
 http://pos.it/slido-B \| @jillymackay.bsky.social
 :::
+
+
 
 # The Veterinary Data Science Culture
 
