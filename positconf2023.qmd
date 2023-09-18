@@ -1,7 +1,4 @@
 ---
-project:
-  type: website
-  output-dir: /docs
 title: "You can lead a horse to water ..."
 subtitle: "Changing the data science culture for veterinary scientists"
 author: "**Jill MacKay** | Senior Lecturer (Veterinary Science Education), University of Edinburgh"
