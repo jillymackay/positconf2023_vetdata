@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "positconf2023.html#this-talk-is-about",
+    "href": "positconf2023.html#this-talk-is-about",
+    "title": "You can lead a horse to water …",
+    "section": "This talk is about:",
+    "text": "This talk is about:\nEnvironment management\nenvironment &lt;- culture\n\nHow do we make the vet school environment compatible with the Posit::Conf environment?\n\n\nhttp://pos.it/slido-B | @jillymackay.bsky.social"
+  },
+  {
+    "objectID": "positconf2023.html#positconf-environment",
+    "href": "positconf2023.html#positconf-environment",
+    "title": "You can lead a horse to water …",
+    "section": "Posit::Conf Environment",
+    "text": "Posit::Conf Environment\n\nsession_position &lt;- function(affirmation = \"Aye!\") {\n  paste0(\"Should everyone be on board with good data science practice? \", \n         affirmation)\n}\n\n\nhttp://pos.it/slido-B | @jillymackay.bsky.social"
+  },
+  {
+    "objectID": "positconf2023.html#edinburghvet-environment",
+    "href": "positconf2023.html#edinburghvet-environment",
+    "title": "You can lead a horse to water …",
+    "section": "Edinburgh::Vet Environment",
+    "text": "Edinburgh::Vet Environment\n\nvet_environ &lt;- list(\"Roslin\" = c(\"Dolly the Sheep\", \n                                 \"Covid Experts\", \n                                 \"Bioinformatics\"),\n                     \"R(D)SVS\" = c(\"Day 1 Competent Vets\", \n                                   \"One World Health\"),\n                     \"Edinburgh\" = c(\"International Impact\", \n                                     \"Local Impact\"))\n\n\n\nhttp://pos.it/slido-B | @jillymackay.bsky.social"
+  },
+  {
+    "objectID": "positconf2023.html#by-the-end-of-this-talk",
+    "href": "positconf2023.html#by-the-end-of-this-talk",
+    "title": "You can lead a horse to water …",
+    "section": "By the end of this talk",
+    "text": "By the end of this talk\nI will describe our three approaches:\n\nChanging formal data science teaching\nChanging workplace culture\nChanging operational practice\n\nYou tell me what I’m missing\n\nhttp://pos.it/slido-B | @jillymackay.bsky.social"
+  },
+  {
+    "objectID": "positconf2023.html#our-teaching",
+    "href": "positconf2023.html#our-teaching",
+    "title": "You can lead a horse to water …",
+    "section": "Our Teaching",
+    "text": "Our Teaching\n\n\n\nR(D)SVS Educational Programmes (* Exit degree, ** Residential Programme). \n\n\nPublic Engagement\nUndergraduate\nPostgraduate Taught\nPostgraduate Research\n\n\n\n\nOpen Educational Resources (MOOCs)\nBachelors of Veterinary Medicine and Surgery, Bachelors of Science (Agriculture) , Bachelors of Science (Veterinary Science)*\nApplied Animal Behaviour and Animal Welfare (On Campus) , Animal Biosciences (On Campus) , Planetary Health (Blended) , Sustainable Lands and Cities (Blended) , Advanced Clinical Practice (Online) , Advanced Veterinary Practice (Online) , Applied Conservation Genetics with Wildlife Forensics (Online), Applied Poultry Science (Online) , Clinical Animal Behaviour (Online) , Conservation Medicine (Online) , Equine Science (Online) , Food Safety (Online) , Global Food Security and Nutrition (Online) , International Animal Welfare, Ethics and Law (Online) , One Health (Online) , Veterinary Anaesthesia and Analgesia (Online) , Doctorate in Veterinary Medicine (Resident)**\nMasters by Research , Doctor of Philosophy (PhD)\n\n\n\n\n\n\n\n\nhttp://pos.it/slido-B | @jillymackay.bsky.social"
+  },
+  {
+    "objectID": "positconf2023.html#undergraduate",
+    "href": "positconf2023.html#undergraduate",
+    "title": "You can lead a horse to water …",
+    "section": "Undergraduate",
+    "text": "Undergraduate\n\nVets\n\nCurriculum overload\nOptional R teaching in research projects\n\nAg BScs\n\nAll stats teaching in R from 1st year\n\n\n\nhttp://pos.it/slido-B | @jillymackay.bsky.social"
+  },
+  {
+    "objectID": "positconf2023.html#postgraduate",
+    "href": "positconf2023.html#postgraduate",
+    "title": "You can lead a horse to water …",
+    "section": "Postgraduate",
+    "text": "Postgraduate\n\nTaught programmes\n\nNew role created: “Stats Guru”\n\nNew courses within each programme\n\nStats teaching in R\n\nCampus support for R Teaching\n\nR @ R(D)SVS\n\n\n\nhttp://pos.it/slido-B | @jillymackay.bsky.social"
+  },
+  {
+    "objectID": "positconf2023.html#and-we-taught-r-forever-more-.-.-.",
+    "href": "positconf2023.html#and-we-taught-r-forever-more-.-.-.",
+    "title": "You can lead a horse to water …",
+    "section": "And we taught R forever more . . .",
+    "text": "And we taught R forever more . . .\n\nrenv::dependencies()\n\n                Source            Package \n1               Campus/VetSchool  skilledPeople\n2               Campus/VetSchool  staffTime\n3               Campus/VetSchool  studentSatisfaction\n\n\nhttp://pos.it/slido-B | @jillymackay.bsky.social"
+  },
+  {
+    "objectID": "positconf2023.html#data-methods-club",
+    "href": "positconf2023.html#data-methods-club",
+    "title": "You can lead a horse to water …",
+    "section": "Data Methods Club",
+    "text": "Data Methods Club\nskilledPeople::IanHandel(\"Data Methods Club\")\n\nhttp://pos.it/slido-B | @jillymackay.bsky.social"
+  },
+  {
+    "objectID": "positconf2023.html#dmc-aims",
+    "href": "positconf2023.html#dmc-aims",
+    "title": "You can lead a horse to water …",
+    "section": "DMC Aims",
+    "text": "DMC Aims\n\nWe want it to be as easy to ask for help with analysis, as it is to ask for extra reagent in a lab\n\n\nhttp://pos.it/slido-B | @jillymackay.bsky.social"
+  },
+  {
+    "objectID": "positconf2023.html#dmc-approaches",
+    "href": "positconf2023.html#dmc-approaches",
+    "title": "You can lead a horse to water …",
+    "section": "DMC Approaches",
+    "text": "DMC Approaches\n\nBook club\nPARTYs (Protected Analysis in R Time (Yay!))\nOccasional sessions\nEmail help\n\nAdopted Recurse Center Social Rules\n\nhttp://pos.it/slido-B | @jillymackay.bsky.social"
+  },
+  {
+    "objectID": "positconf2023.html#and-we-supported-r-forever-more",
+    "href": "positconf2023.html#and-we-supported-r-forever-more",
+    "title": "You can lead a horse to water …",
+    "section": "And we supported R forever more …",
+    "text": "And we supported R forever more …\n\nrenv::dependencies()\n\n                Source            Package \n1               Global/           globalPandemic\n2               Campus/VetSchool  staffTime\n\n\nskilledPeople::IanHandel()\n\n&gt; Warning message:\n&gt; `IanHandel()` is deprecated as of skilledPeople v2019\n&gt; There are a range of other people instead (suggest JillyMacKay())\n\n\nhttp://pos.it/slido-B | @jillymackay.bsky.social"
+  },
+  {
+    "objectID": "positconf2023.html#quality-assurance",
+    "href": "positconf2023.html#quality-assurance",
+    "title": "You can lead a horse to water …",
+    "section": "Quality Assurance",
+    "text": "Quality Assurance\n\n\nAs a vet school, we have a LOT of quality assurance\n\n\n\n\nR(D)SVS’ new Director of Quality Assurance and Enhancement …\n\n\n\nhttp://pos.it/slido-B | @jillymackay.bsky.social"
+  },
+  {
+    "objectID": "positconf2023.html#sharing-practice",
+    "href": "positconf2023.html#sharing-practice",
+    "title": "You can lead a horse to water …",
+    "section": "Sharing practice",
+    "text": "Sharing practice\n\nTeaching data often managed by Teaching Organisations and highly confidential.\nQuality Assurance of Teaching Data Project Page - https://jillymackay.com/project/quality-assurance-of-teaching-data/\nSharing analyses with other institutions - https://jillymackay.com/talk/veted-2023/\n\n\nhttp://pos.it/slido-B | @jillymackay.bsky.social"
+  },
+  {
+    "objectID": "positconf2023.html#where-is-veterinary-science-at",
+    "href": "positconf2023.html#where-is-veterinary-science-at",
+    "title": "You can lead a horse to water …",
+    "section": "Where is veterinary science at?",
+    "text": "Where is veterinary science at?\n!remindme(10 years)\nBut what are my key learnings . . . ?\n\nrequire(skilledPeople)\nrequire(staffTime)\n\n\nhttp://pos.it/slido-B | @jillymackay.bsky.social"
+  },
+  {
+    "objectID": "positconf2023.html#isissue-skilledpeople-intitle",
+    "href": "positconf2023.html#isissue-skilledpeople-intitle",
+    "title": "You can lead a horse to water …",
+    "section": "is:issue skilledPeople in:title",
+    "text": "is:issue skilledPeople in:title\n\n\n\n\n\n\n\n1 Open\n\n\n\n\nskilledPeople updates too often\n#1 opened on Jun 24 by jillymackay\n\n\n\n\n\n\n\n\n\n\n\n1 Closed\n\n\n\n\nskilledPeople updates too often\nWon’t update: this is a feature, not a bug.\n#1 closed on Sep 19 by jillymackay\n\n\n\n\n\nSuggest utilise extensive documentation\nSee:\n\nGlasgow has PsyTeachR\nOur QA work Project page\n\n\n\nhttp://pos.it/slido-B | @jillymackay.bsky.social"
+  },
+  {
+    "objectID": "positconf2023.html#isissue-r-is-hard-intitle",
+    "href": "positconf2023.html#isissue-r-is-hard-intitle",
+    "title": "You can lead a horse to water …",
+    "section": "is:issue R Is Hard in:title",
+    "text": "is:issue R Is Hard in:title\n\n\n\n\n\n\n\n1 Open\n\n\n\n\nR is really complicated and time consuming\n#2 opened on Aug 16 by jillymackay\n\n\n\n\n\n\n\n\n\n\n\n1 Closed\n\n\n\n\nR is really complicated and time consuming\nMake use of the many tools available\n#2 closed on Sep 19 by jillymackay\n\n\n\n\n\nPrescribe tidyverse and an IDE. Ensure using right tool for job.\nSee:\n\nGlobal Academy of Agriculture and Food security short courses\n\n\n\nhttp://pos.it/slido-B | @jillymackay.bsky.social"
+  },
+  {
+    "objectID": "positconf2023.html#isissue-politics-intitle",
+    "href": "positconf2023.html#isissue-politics-intitle",
+    "title": "You can lead a horse to water …",
+    "section": "is:issue politics in:title",
+    "text": "is:issue politics in:title\n\n\n\n\n\n\n\n1 Open\n\n\n\n\nNot sure this is possible in neoliberal Higher Ed\n#3 opened on Sep 13 by jillymackay\n\n\n\n\n\n\n\n\n\n\n\n1 Closed\n\n\n\n\nNot sure this is possible in neoliberal Higher Ed\nThis is a replication of the capitalism issue.\n#3 closed on Sep 19 by jillymackay\n\n\n\n\n\nAcknowledge and provide time for these skills\nSee:\n\n?\n\n\n\nhttp://pos.it/slido-B | @jillymackay.bsky.social"
+  },
+  {
+    "objectID": "positconf2023.html#questions",
+    "href": "positconf2023.html#questions",
+    "title": "You can lead a horse to water …",
+    "section": "Questions?",
+    "text": "Questions?\nEdinburgh’s free consult time.\nhttp://pos.it/slido-B\n\njillymackay.com | mastodon::jillymackay@fosstodon.org | @jillymackay.bsky.social | https://github.com/jillymackay/positconf2023_vetdata\n\n\n\n\nhttp://pos.it/slido-B | jillymackay.com | mastodon::jillymackay@fosstodon.org | @jillymackay.bsky.social | twitter@jilly_mackay"
+  }
+]
